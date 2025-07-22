@@ -1,0 +1,182 @@
+{
+  "categories": [
+    { "name": "Electronics" },
+    { "name": "Clothing" },
+    { "name": "Home & Garden" },
+    { "name": "Sports" },
+    { "name": "Books" }
+  ],
+  "brands": [
+    { "name": "Apple" },
+    { "name": "Nike" },
+    { "name": "Samsung" },
+    { "name": "Adidas" },
+    { "name": "Sony" }
+  ],
+  "colors": [
+    { "name": "Red" },
+    { "name": "Blue" },
+    { "name": "Green" },
+    { "name": "Black" },
+    { "name": "White" }
+  ],
+  "sizes": [
+    { "value": "S" },
+    { "value": "M" },
+    { "value": "L" },
+    { "value": "XL" },
+    { "value": "XXL" }
+  ],
+  "products": [
+    {
+      "title": "iPhone 15 Pro",
+      "description": "Latest iPhone with advanced camera system",
+      "price": 999,
+      "image_url": "https://example.com/iphone15.jpg",
+      "stock_quantity": 50,
+      "category_id": 1,
+      "brand_id": 1,
+      "colors": [1, 4],
+      "sizes": [3],
+      "ratings": [
+        { "user_id": "user-001", "value": 5 },
+        { "user_id": "user-002", "value": 4 }
+      ]
+    },
+    {
+      "title": "Nike Air Max",
+      "description": "Comfortable running shoes",
+      "price": 120,
+      "image_url": "https://example.com/nike-air.jpg",
+      "stock_quantity": 100,
+      "category_id": 2,
+      "brand_id": 2,
+      "colors": [1, 2, 4],
+      "sizes": [1, 2, 3, 4],
+      "ratings": [
+        { "user_id": "user-004", "value": 4 },
+        { "user_id": "user-005", "value": 5 }
+      ]
+    },
+    {
+      "title": "Samsung Galaxy S24",
+      "description": "Premium Android smartphone",
+      "price": 899,
+      "image_url": "https://example.com/galaxy-s24.jpg",
+      "stock_quantity": 75,
+      "category_id": 1,
+      "brand_id": 3,
+      "colors": [4, 5],
+      "sizes": [3],
+      "ratings": [
+        { "user_id": "user-007", "value": 4 },
+        { "user_id": "user-008", "value": 5 }
+      ]
+    },
+    {
+      "title": "Adidas Ultraboost",
+      "description": "High-performance running shoes",
+      "price": 180,
+      "image_url": "https://example.com/ultraboost.jpg",
+      "stock_quantity": 60,
+      "category_id": 2,
+      "brand_id": 4,
+      "colors": [2, 4],
+      "sizes": [2, 3, 4],
+      "ratings": [
+        { "user_id": "user-011", "value": 5 },
+        { "user_id": "user-012", "value": 5 }
+      ]
+    },
+    {
+      "title": "Sony WH-1000XM5",
+      "description": "Premium noise-canceling headphones",
+      "price": 349,
+      "image_url": "https://example.com/sony-headphones.jpg",
+      "stock_quantity": 30,
+      "category_id": 1,
+      "brand_id": 5,
+      "colors": [4, 5],
+      "sizes": [3],
+      "ratings": [
+        { "user_id": "user-014", "value": 5 },
+        { "user_id": "user-015", "value": 5 }
+      ]
+    },
+    {
+      "title": "Apple MacBook Pro 16",
+      "description": "Powerful laptop for professionals",
+      "price": 2499,
+      "image_url": "https://example.com/macbookpro16.jpg",
+      "stock_quantity": 20,
+      "category_id": 1,
+      "brand_id": 1,
+      "colors": [4, 5],
+      "sizes": [3],
+      "ratings": [
+        { "user_id": "user-021", "value": 5 },
+        { "user_id": "user-022", "value": 5 }
+      ]
+    },
+    {
+      "title": "Nike Sports T-Shirt",
+      "description": "Breathable and comfortable t-shirt for sports activities.",
+      "price": 35,
+      "image_url": "https://example.com/nike-tshirt.jpg",
+      "stock_quantity": 120,
+      "category_id": 2,
+      "brand_id": 2,
+      "colors": [2, 4],
+      "sizes": [1, 2, 3],
+      "ratings": [
+        { "user_id": "user-051", "value": 5 },
+        { "user_id": "user-052", "value": 4 }
+      ]
+    },
+    {
+      "title": "Adidas Yoga Pants",
+      "description": "Flexible and stylish yoga pants for women.",
+      "price": 60,
+      "image_url": "https://example.com/adidas-yoga.jpg",
+      "stock_quantity": 80,
+      "category_id": 2,
+      "brand_id": 4,
+      "colors": [3, 5],
+      "sizes": [2, 3, 4, 5],
+      "ratings": [
+        { "user_id": "user-061", "value": 5 },
+        { "user_id": "user-062", "value": 4 }
+      ]
+    },
+    {
+      "title": "Samsung Smart TV 55\"",
+      "description": "4K UHD Smart TV with HDR support.",
+      "price": 699,
+      "image_url": "https://example.com/samsung-tv.jpg",
+      "stock_quantity": 40,
+      "category_id": 1,
+      "brand_id": 3,
+      "colors": [5],
+      "sizes": [3],
+      "ratings": [
+        { "user_id": "user-071", "value": 5 },
+        { "user_id": "user-072", "value": 4 }
+      ]
+    },
+    {
+      "title": "Sony E-Reader",
+      "description": "Lightweight e-reader for book lovers.",
+      "price": 120,
+      "image_url": "https://example.com/sony-ereader.jpg",
+      "stock_quantity": 60,
+      "category_id": 5,
+      "brand_id": 5,
+      "colors": [5, 2],
+      "sizes": [3],
+      "ratings": [
+        { "user_id": "user-081", "value": 5 },
+        { "user_id": "user-082", "value": 4 }
+      ]
+    }
+  ]
+}
