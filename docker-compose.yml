@@ -4,7 +4,7 @@ services:
     container_name: postgres_db
     restart: always
     environment:
-      POSTGRES_DB: product_catalog
+      POSTGRES_DB: productcatalog
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: Vishwa1720@1720
     ports:
@@ -35,7 +35,7 @@ services:
       DB_PORT: 5432
       DB_USER: postgres
       DB_PASS: Vishwa1720@1720
-      DB_NAME: product_catalog
+      DB_NAME: productcatalog
       PORT: 3000
       REDIS_HOST: redis
       REDIS_PORT: 6379
